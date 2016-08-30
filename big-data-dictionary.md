@@ -9,8 +9,8 @@ The big data software list as how I currently understand it.
 **Amazon EMR** : Amazon's cloud based implementation of various brands of hadoop (vanilla, MapR). Really fast to setup. One or 3 clicks to spin up a cluster and add spark or other apps. 
 <https://aws.amazon.com/emr/>
 
-**MongoDB** : One of the most popular commercial company supported variety of hadoop. It's got tech support that large enterprises needs.  
-<https://www.mongodb.com/> 
+**HortonWorks** : One of the most popular commercial company supported variety of hadoop. It's got tech support that large enterprises needs. This company has ipo'ed. 
+<https://hortonworks.com/> 
 
 **Cloudera** : The second most popular commercial company version of hadoop. This company is public and has a ticker. I'm not sure of true advantages.  
 <http://www.cloudera.com/> 
@@ -144,6 +144,9 @@ Comparison of the two:
 
 
 ## NoSql key-value stores:
+
+**MongoDB** : One of the most popular commercial nosql vendors. It's got tech support that large enterprises needs.  
+<https://www.mongodb.com/> 
 
 **Cassandra** : Most reliable and super scalable data store of key-values. Structured data across many commodity servers, and no single point of failure. Columar too. Supposed to be pain to change the stucture.     
 <http://cassandra.apache.org/>
