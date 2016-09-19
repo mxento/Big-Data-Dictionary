@@ -19,7 +19,7 @@ The big data software list as how I currently understand it.
 <https://en.wikipedia.org/wiki/MapR>
 
 **HBase**
-That is, it provides a fault-tolerant way of storing large quantities of sparse data.
+That is, it provides a fault-tolerant way of storing large quantities of sparse data. It's a NoSQL store.
 <https://en.wikipedia.org/wiki/Apache_HBase>
 
 **BigTable** : Compresses google's own big data filestore. powering Google cloud platform. So google's hadoop.
@@ -150,6 +150,10 @@ Comparison of the two:
 
 **Cassandra** : Most reliable and super scalable data store of key-values. Structured data across many commodity servers, and no single point of failure. Columar too. Supposed to be pain to change the stucture.     
 <http://cassandra.apache.org/>
+
+
+**Apache Accumulo** : A sorted, distributed key/value store based on the Google BigTable. Accumulo has cell-level access labels and server-side programming mechanisms. NSA uses this as a high security Hadoop implementation. 
+<https://accumulo.apache.org//>
 
  
 **Redis** : in memory data store , good for caching hot data like websites, not a long term persistant data store.  
