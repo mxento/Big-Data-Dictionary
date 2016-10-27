@@ -9,11 +9,9 @@ The big data software list as how I currently understand it.
 **Amazon EMR** : Amazon's cloud based implementation of various brands of hadoop (vanilla, MapR). Really fast to setup. One or 3 clicks to spin up a cluster and add spark or other apps. 
 <https://aws.amazon.com/emr/>
 
-**HortonWorks** : One of the most popular commercial company supported variety of hadoop. It's got tech support that large enterprises needs. This company has ipo'ed. 
-<https://hortonworks.com/> 
+**HortonWorks** : One of the most popular commercial company supported variety of hadoop. It's got tech support that large enterprises needs. <https://hortonworks.com/> 
 
-**Cloudera** : The second most popular commercial company version of hadoop. This company is public and has a ticker. I'm not sure of true advantages.  
-<http://www.cloudera.com/> 
+**Cloudera** : The second most popular commercial company version of hadoop. This company is public and has a ticker.  <http://www.cloudera.com/> 
 
 **MapR** : Also commercial; MapR claims to have full data protection, no single points of failure, improved performance, and dramatic ease of use. True replication.  
 <https://en.wikipedia.org/wiki/MapR>
@@ -40,7 +38,7 @@ Similar to tables in RDS systems. Makes hadoop into a table like structure. Hive
 **Apache Storm**: Big time streaming processing of incoming big data. Or micro-batching. It does lambda function or what used to be transforms on datasets fast. 
 <http://storm.apache.org/> 
 
-**Flink** : Streaming data application that is faster than storm?  
+**Flink** : Streaming data application that is faster than storm.  
 <https://flink.apache.org/>
 
 
@@ -58,10 +56,17 @@ Similar to tables in RDS systems. Makes hadoop into a table like structure. Hive
 <http://impala.apache.org/>  
 <https://en.wikipedia.org/wiki/Cloudera_Impala>
 
-## Misc 
+## Data Injestion 
 
-**Apache Nifi**: Log collection service, used to collect IOT or similar volumes of data.
+**Apache Nifi**: Log collection service, used to collect IOT or similar volumes of data. Been around longer and has more enterprise users and support.
 <https://nifi.apache.org/>
+
+
+
+**StreamSets Dataflow **: Data injestion service, used to collect streams of data. Simple and lightweight. Vendor agnostic.
+<https://streamsets.com/>
+
+## Misc 
 
 **Avro** : Data serializaion framework. Uses JSON. 
 <https://en.wikipedia.org/wiki/Apache_Avro>
@@ -104,7 +109,7 @@ Similar to tables in RDS systems. Makes hadoop into a table like structure. Hive
 
 ## ETL / Pipelining
 
-**Sqoop** : Tool used to transfer data between hadoop and regular data stores. 
+**Sqoop** : Tool used to transfer data between hadoop and regular relational data stores. 
 <http://sqoop.apache.org/> 
 
 **Airflow** : Open source data engineering pipeline tool. Used to parallel etl data from nodes to target stores. AirBnb made it.
@@ -113,6 +118,8 @@ Similar to tables in RDS systems. Makes hadoop into a table like structure. Hive
 **Luigi**
 Data piplines and complex etl jobs. Spotify made and uses it.
 <https://github.com/spotify/luigi>
+
+
 
 ## Data Science/Machine Learning
 **Mahout** : Scalable machine learning algorithm libraries. 
@@ -127,7 +134,7 @@ Data piplines and complex etl jobs. Spotify made and uses it.
 **Kibana** : To have data visualization and reporting from the distributed systems. Same company as elastic search.    
 <https://www.elastic.co/products/kibana>
 
-## Search
+## Distributed Search
 **Lucene Search**:
 Open Source information retrival libary. Basis of Solr and Elastic
 <https://en.wikipedia.org/wiki/Lucene>
@@ -145,7 +152,7 @@ Comparison of the two:
 
 ## NoSql key-value stores:
 
-**MongoDB** : One of the most popular commercial nosql vendors. It's got tech support that large enterprises needs.  
+**MongoDB** : One of the most popular commercial NoSql vendors. It's got tech support that large enterprises needs.  
 <https://www.mongodb.com/> 
 
 **Cassandra** : Most reliable and super scalable data store of key-values. Structured data across many commodity servers, and no single point of failure. Columar too. Supposed to be pain to change the stucture.     
