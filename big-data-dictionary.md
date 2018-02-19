@@ -1,5 +1,9 @@
 # MX's Big Data Dictionary
 
+A-Z Terms online: Peter James' Data Dictionary 
+<https://peterjamesthomas.com/data-and-analytics-dictionary/>
+
+
 The big data software list as how I currently understand it.
 
 ## The Hadoops
